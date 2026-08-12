@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - User Management</title>
+
+    <link rel="stylesheet" href="css/users.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>Admin</h2>
+
+        <ul>
+
+            <li>
+                <a href="dashboard.html">
+                    <i class="fas fa-gauge"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="users.html">
+                    <i class="fas fa-users"></i>
+                    Users
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <h1>User Management</h1>
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by Name or Email..."
+            >
+
+        </div>
+
+        <!-- User Table -->
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="userTable">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="js/users.js"></script>
+
+</body>
+</html>

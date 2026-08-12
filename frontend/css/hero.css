@@ -1,0 +1,23 @@
+.carousel-item img{
+    height:500px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+.carousel-caption h2{
+    font-size:42px;
+    font-weight:700;
+}
+
+.carousel-caption p{
+    font-size:18px;
+}
+
+.hero-btn{
+    margin-top:15px;
+}

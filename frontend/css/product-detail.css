@@ -1,0 +1,27 @@
+body {
+    background: #f5f5f5;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#product-details {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.price {
+    color: #198754;
+    margin: 25px 0;
+}
+
+.rating {
+    font-size: 25px;
+}

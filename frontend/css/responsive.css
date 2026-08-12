@@ -1,0 +1,76 @@
+/* Tablet */
+@media(max-width:992px){
+
+.navbar form{
+    margin:20px 0;
+    width:100% !important;
+}
+
+.carousel-item img{
+    height:350px;
+}
+
+.carousel-caption h2{
+    font-size:30px;
+}
+
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.carousel-item img{
+    height:250px;
+}
+
+.carousel-caption{
+    padding:10px;
+}
+
+.carousel-caption h2{
+    font-size:22px;
+}
+
+.carousel-caption p{
+    font-size:14px;
+}
+
+.section-title{
+    font-size:28px;
+}
+
+.product-card img{
+    height:200px;
+}
+
+}
+
+/* Small Mobile */
+@media(max-width:576px){
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.carousel-item img{
+    height:180px;
+}
+
+.product-title{
+    font-size:18px;
+}
+
+.product-price{
+    font-size:18px;
+}
+
+.category-card img{
+    width:90px;
+    height:90px;
+}
+
+.btn{
+    padding:8px 18px;
+}
+
+}

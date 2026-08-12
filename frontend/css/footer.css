@@ -1,0 +1,38 @@
+footer{
+    background:#212529;
+    color:white;
+    padding:50px 0;
+    margin-top:60px;
+}
+
+footer h4{
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+footer ul li{
+    margin-bottom:10px;
+}
+
+footer a{
+    color:white;
+    transition:.3s;
+}
+
+footer a:hover{
+    color:#ffc107;
+}
+
+footer i{
+    margin-right:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+footer i:hover{
+    color:#ffc107;
+}
+
+footer hr{
+    border-color:rgba(255,255,255,.2);
+}
